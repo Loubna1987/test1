@@ -1,0 +1,26 @@
+package consonnes
+
+public class consonnes
+
+int []lettre;
+public static type 3 Algo( consonne sont de type caractère 
+DEBUT
+	Ecrire («  Saisir la première lettre du mot ») 
+	Lire lettre 
+	TANT QUE (lettre !=‘ ‘) 
+		Ecrire (« Saisir la lettre suivante »)
+		Lire (lettre) 
+		Si (lettre!=a ET lettre=!e ET lettre!=i ET lettre!=o ET lettre=!u ET 		lettre!=y) 
+		consonne <- consonne + lettre
+		Fin SI
+	FIN TANT QUE 
+	Ecrire (« Les consonnes du mot choisi sont », consonne)
+	
+   ALGORITHME Ex5
+   VARIABLE Nombre : ENTIER
+   ECRIRE « Donnez un nombre inférieur à 100 » 
+TANT QUE nombre >= 100 
+LIRE (nombre 
+JUSQU’A nombre >= 100 
+ECRIRE « OK »
+
